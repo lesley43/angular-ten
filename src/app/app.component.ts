@@ -7,4 +7,17 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-ten';
+  name = 'Lesley';
+  getCoolnessFactor() {
+    return 'Super Cool';
+  }
+  getName() {
+    return this.name;
+  }
+  obj = {
+    firstName: 'Harry',
+    lastName: 'Potter'
+  }
+  arr = ['Ron', 'Hermione'];
+  siteUrl = window.location.href;
 }
